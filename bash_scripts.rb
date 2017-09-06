@@ -9,7 +9,7 @@ SCRIPT_1
 
 # Install essential packages
 $script_2 = <<SCRIPT_2
-apt-get install -y software-properties-common git curl wget openssl libssl-dev build-essential make \
+DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common git curl wget openssl libssl-dev build-essential make \
 apt-transport-https ca-certificates python-pip
 SCRIPT_2
 
