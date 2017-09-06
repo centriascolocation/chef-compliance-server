@@ -15,7 +15,7 @@ SCRIPT_2
 
 # Install Chef Compliance Server
 $script_3 = <<SCRIPT_3
-wget --no-clobber -q -O /tmp/chef-compliance-1.10.2.deb https://packages.chef.io/files/stable/chef-compliance/1.10.2/ubuntu/16.04/chef-compliance_1.10.2-1_amd64.deb
-dpkg -i /tmp/chef-compliance-1.10.2.deb
+wget --no-clobber -q -O /tmp/chef-compliance-1.11.5.deb https://packages.chef.io/files/stable/chef-compliance/1.11.5/ubuntu/16.04/chef-compliance_1.11.5-1_amd64.deb
+dpkg -i /tmp/chef-compliance-1.15.5.deb
 chef-compliance-ctl reconfigure --accept-license
 SCRIPT_3
